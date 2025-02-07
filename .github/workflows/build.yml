@@ -28,6 +28,9 @@ jobs:
           user: ksooo
           template: classic
           base: header, activity, community, repositories, metadata
+          repositories_forks: yes
+          base_indepth: yes
+          repositories_affiliations: owner, collaborator, organization_member
           config_timezone: Europe/Berlin
           plugin_achievements: yes
           plugin_achievements_display: detailed
